@@ -72,4 +72,3 @@ A sua aplicação cliente estará online!
 
 ---
 
-Desenvolvido para a ONG Acapra em ambiente arquitetado por Assistência Antigravity.
