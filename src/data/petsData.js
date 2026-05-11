@@ -1,0 +1,80 @@
+export const initialPets = [
+  {
+    id: 1,
+    name: 'Luna',
+    species: 'Cão',
+    breed: 'Vira-lata (SRD)',
+    age: '2 anos',
+    size: 'Médio',
+    gender: 'Fêmea',
+    image: 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    description: 'Luna é uma cachorrinha muito doce e agitada. Adora correr no parque e brincar de buscar bolinha. Ideal para famílias com espaço ou que adoram atividades físicas.',
+    health: 'Vacinada, vermifugada e castrada.',
+    temperament: ['Dócil', 'Brincalhona', 'Ativa']
+  },
+  {
+    id: 2,
+    name: 'Oliver',
+    species: 'Gato',
+    breed: 'Siamês',
+    age: '1 ano',
+    size: 'Pequeno',
+    gender: 'Macho',
+    image: 'https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    description: 'Oliver é um gatinho muito carinhoso e vocal. Gosta de conversar com seus humanos e passar horas deitado no sol. Se adapta bem em apartamentos.',
+    health: 'Vacinado e castrado.',
+    temperament: ['Carinhoso', 'Vocal', 'Calmo']
+  },
+  {
+    id: 3,
+    name: 'Thor',
+    species: 'Cão',
+    breed: 'Labrador',
+    age: '4 anos',
+    size: 'Grande',
+    gender: 'Macho',
+    image: 'https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    description: 'Thor é um grandalhão com coração de ouro. Muito dócil e paciente, ótimo com crianças. Precisa de espaço e passeios diários.',
+    health: 'Vacinado, vermifugado e castrado.',
+    temperament: ['Protetor', 'Dócil', 'Paciente']
+  },
+  {
+    id: 4,
+    name: 'Mia',
+    species: 'Gato',
+    breed: 'Persa',
+    age: '3 anos',
+    size: 'Pequeno',
+    gender: 'Fêmea',
+    image: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    description: 'Mia é uma felina muito independente e elegante. Gosta de ter o seu espaço, mas retribui com muito carinho quando quer atenção.',
+    health: 'Castrada, vacinas em dia.',
+    temperament: ['Independente', 'Tranquila']
+  },
+  {
+    id: 5,
+    name: 'Chico',
+    species: 'Cão',
+    breed: 'Pug',
+    age: '5 anos',
+    size: 'Pequeno',
+    gender: 'Macho',
+    image: 'https://images.unsplash.com/photo-1517423440402-f52ac3411618?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    description: 'Chico adora dormir e petiscos. Não precisa de muito exercício, sendo perfeito para quem tem um estilo de vida mais caseiro.',
+    health: 'Vacinado e castrado. Requer cuidados com a respiração.',
+    temperament: ['Preguiçoso', 'Comilão', 'Apegado']
+  },
+  {
+    id: 6,
+    name: 'Nina',
+    species: 'Cão',
+    breed: 'Vira-lata (SRD)',
+    age: '6 meses',
+    size: 'Médio',
+    gender: 'Fêmea',
+    image: 'https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    description: 'Nina é um filhote cheio de energia e amor para dar. Está aprendendo a usar o tapetinho higiênico e adora morder brinquedos.',
+    health: 'Primeira dose da vacina aplicada. Vermifugada.',
+    temperament: ['Curiosa', 'Filhote', 'Brincalhona']
+  }
+];

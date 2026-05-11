@@ -1,0 +1,38 @@
+.about-image-card {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 41% 59% 70% 30% / 44% 53% 47% 56%;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  border: 4px solid var(--primary-light);
+  transform: rotate(-3deg);
+  transition: all 0.5s ease;
+}
+
+.about-image-card:hover {
+  transform: rotate(0deg) scale(1.02);
+  border-radius: 61% 39% 51% 49% / 44% 59% 41% 56%;
+}
+
+.about-image-card.secondary {
+  border-radius: 51% 49% 30% 70% / 54% 33% 67% 46%;
+  transform: rotate(3deg);
+  border: 4px solid var(--border);
+}
+
+.about-image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+  .about-grid.flip > div:first-child {
+    order: 2;
+  }
+}

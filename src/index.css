@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  /* Brand Colors - Acapra (Laranja e Marrom) */
+  --primary: #EF7F1A;
+  --primary-hover: #D66B14;
+  --primary-light: #FDF3E5; /* Light soft yellow/orange */
+  --secondary: #623c11; /* Dark Brown */
+  --secondary-hover: #472b0c;
+  
+  --bg-base: #ffffff;
+  --bg-surface: #FDFDFD;
+  --text-primary: #1A1A1A;
+  --text-secondary: #4A4A4A;
+  --border: #E5E5E5;
+  
+  /* Shadows & Effects */
+  --shadow-sm: 0 4px 10px rgba(0,0,0,0.03);
+  --shadow-md: 0 10px 25px rgba(239, 127, 26, 0.15); /* Orange glow shadow */
+  --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.08);
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-full: 9999px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Button System Refined */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 1.8rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: var(--radius-full);
+  transition: all 0.3s ease;
+  letter-spacing: 0.02em;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  box-shadow: 0 6px 15px rgba(239, 127, 26, 0.3);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(239, 127, 26, 0.4);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--secondary);
+  border: 1.5px solid var(--border);
+}
+
+.btn-outline:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.btn-block {
+  display: flex;
+  width: 100%;
+}
+
+/* Typography Refinements */
+.heading-1 {
+  font-weight: 900;
+  color: var(--secondary);
+}
+
+/* Auth / Custom Input Fields matching the "Bem-Vindo" reference */
+.form-input {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--primary-light);
+  font-family: 'Inter';
+  font-size: 1rem;
+  color: var(--text-primary);
+  transition: border-color 0.3s ease;
+  background-color: #fff;
+}
+.form-input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+.form-input::placeholder {
+  color: #a3a3a3;
+}
+.form-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
